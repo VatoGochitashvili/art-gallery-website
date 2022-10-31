@@ -1,0 +1,119 @@
+
+
+@media only screen and (max-width: 900px){
+    
+    
+/* -------------LOCATION PAGE---------- */
+
+
+
+/* -----------button------------ */
+.map button{
+    width: 34.375vw; /* 264/768 */
+    height: 9.375vw; /* 72/768 */
+    left: 5.208333vw; /* 40/768 */
+
+}
+
+.buttondiv2{
+    width: 7.291667vw; /* 56/768 */
+}
+
+.buttondiv2 img{
+    height: 3.125vw; /* 24/768 */
+}
+
+.buttondiv1 h2{
+    font-size: 2.604167vw; /* 20/768 */
+    letter-spacing: 0.473958vw; /* 3.64/768 */
+}
+
+
+/* -----------upper page----------- */
+#mappic{
+    display: none;
+}
+
+#mappic2{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.map{
+    height: 78.125vw; /* 600/768 */
+}
+
+/* ----------midpage----------- */
+.review{
+    height: 56.770833vw; /* 436/768 */
+
+}
+
+.container{
+    width: 100%;
+    padding: 11.458333vw  5.208333vw 10.416667vw  5.208333vw; /* 40/768 */
+    box-sizing: border-box;
+}
+
+
+.container h1{
+    font-size: 7.291667vw; /* 56/768 */
+    font-weight: 900;
+    width: 29.036458vw; /* 223/768 */
+
+}
+
+.info{
+    width: 51.822917vw; /* 398/768 */
+    height: 100%;
+}
+
+.info h3{
+    font-size: 4.166667vw; /* 32/768 */
+    font-weight: 900;
+
+
+}
+
+.info p{
+    font-size: 2.34375vw; /* 18/768 */
+    line-height: 3.645833vw; /* 28/768 */
+}
+
+
+/* ----------footer------------- */
+footer{
+    height: 28.125vw; /*216/768 */
+}
+
+
+#maindiv{
+    width: 100%;
+    padding: 7.291667vw 5.208333vw ; /* 56/768 */
+    box-sizing: border-box;
+}
+
+
+
+#maindiv p{
+    font-size: 2.083333vw; /* 16/768 */
+    width: 36.71875vw; /* 282/768 */
+}
+
+#maindiv .logo{
+    width: 14.388021vw; /* 110.5/768 */
+}
+
+.icons{
+    width: 13.020833vw; /* 100/768 */
+}
+
+
+.icons svg{
+    width: 2.604167vw; /* 20/768 */
+}
+
+
+}
+

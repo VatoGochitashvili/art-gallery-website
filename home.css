@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.drawing2, .drawing3{
+    width: 77.08vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* -------upper page------ */
+.logodark2{
+    display: none;
+}
+
+#tablethero{
+    display: none;
+}
+
+#mobilehero{
+    display: none;
+}
+
+#mobilehero2{
+    display: none;
+}
+
+.drawing1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.picdivlogo{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero{
+    width: 37.5vw;
+    height: 55.5vw;
+}
+
+.picdivlogo div{
+    background-color: #151515;
+    height: 55.5vw;
+    width: 31.25vw;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.logodark, .logolight{
+    width: 35.69vw;
+    position: absolute;
+    top: 13.125vw;
+    left: 165px
+}
+
+.logolight{
+    z-index: 1;
+}
+
+.textbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 24.31vw;
+    height: 20.55vw;
+    position: absolute;
+    top: 13.19vw;
+    right: 11.39vw;
+}
+
+#intro{
+    font-size: 1.52vw;
+    height: 11.11vw;
+    color: #444444;
+}
+
+.textbutton button{
+    width: 18.05vw;
+    height: 5vw;
+    margin-top: 4.44vw;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    cursor: pointer;
+
+}
+
+.textbutton button:hover .buttondiv1{
+    background-color:#D5966C ;
+    transition: 0.4s;
+}
+
+.textbutton button:hover .buttondiv2{
+    background-color: #151515;
+    transition: 0.4s;
+}
+
+.buttondiv1, .buttondiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.buttondiv1{
+ flex: 1;
+ background-color: #151515;
+ color: white;
+}
+
+.buttondiv2{
+    width: 3.8vw;
+    background-color: #D5966C;
+}
+
+.buttondiv2 img{
+    height: 1.67vw;
+}
+
+.buttondiv1 h2{
+    font-size: 1.39vw;
+    letter-spacing: 0.25vw;
+}
+
+
+/*------------midpage----------- */
+
+
+.drawing2{
+    margin: 12.5vw 11.46vw 2.08vw 11.46vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drawing2 img{
+    width: 44.1vw;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 24.86vw;
+    height: 19.44vw;
+    justify-content: space-between;
+}
+
+.text h1{
+    font-size: 4.17vw;
+    /* width: 100%; */
+    height: 8.33vw;
+    color: #151515;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text p{
+    font-size: 1.53vw;
+    color: #444444;
+}
+
+/* ------------grid------------ */
+
+.imagegrid12, .imagegrid22, .imagegrid31, .imagegrid32{
+    display: none;
+}
+
+.drawing3{
+    display: flex;
+    justify-content: center;
+    margin: 0 11.46vw;
+    overflow: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 44.09vw 30.9vw;
+    grid-template-rows: 21.73vw 26.16vw;
+    gap: 2.08vw;
+    /* margin: 0 11.46vw; */
+    justify-self: center;
+}
+
+.imagegrid1{
+    grid-row: 1 / -1;
+    width:  100%;
+}
+
+.imagegrid2{
+    width: 100%;
+    grid-row: 1 / 2;
+}
+
+.text2 {
+    grid-row: 2 / 3;
+    background-color: #151515;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4.44vw 3.33vw;
+}
+
+.text2 h2{
+    font-size: 4.17vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text2 p{
+    font-size: 1.53vw;
+    
+}
+
+
+/* -----------------------footer--------------- */
+footer{
+    height: 16.94vw;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 12.5vw;
+}
+
+
+#maindiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 77.08vw;
+}
+
+
+
+#maindiv p{
+    font-size: 1.25vw;
+    width: 29.86vw;
+}
+
+#maindiv .logo{
+    width: 11.08vw;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100px;
+    color: #D5966C;
+}
+
+
+.icons svg{
+    width: 20px;
+    cursor: pointer;
+}
+
+.icons svg:hover path{
+    fill: #D5966C;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

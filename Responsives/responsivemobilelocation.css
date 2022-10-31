@@ -1,0 +1,132 @@
+@media only screen and (max-width: 500px){
+/* -----------button------------ */
+    
+/* -------------LOCATION PAGE---------- */
+
+
+
+/* -----------button------------ */
+.map button{
+    width: 70.4vw; /* 264/375 */
+    height: 19.2vw; /* 72/375 */
+    left: 0; /* 40/768 */
+
+}
+
+.buttondiv2{
+    width: 14.933333vw; /* 56/375 */
+}
+
+.buttondiv2 img{
+    height: 6.4vw; /* 24/375 */
+}
+
+.buttondiv1 h2{
+    font-size: 5.333333vw; /* 20/375 */
+    letter-spacing: 0.970667vw; /* 3.64/375 */
+}
+
+
+/* -----------upper page----------- */
+#mappic{
+    display: none;
+}
+
+#mappic2{
+    display: none;
+}
+
+#mappic3{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.map{
+    height: 141.066667vw; /* 574/375 */
+}
+
+/* ----------midpage----------- */
+.review{
+    height: 131.466667vw; /* 493/375 */
+
+}
+
+.container{
+    width: 100%;
+    padding: 12.8vw 4.266667vw 14.933333vw 4.266667vw ; /* 56/375 */
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.container h1{
+    font-size: 13.333333vw; /* 50/375 */
+    font-weight: 900;
+    width: 100%; /* 223/768 */
+    margin-bottom: 12.8vw; /* 48/375 */
+
+}
+
+.info{
+    width: 100%; /* 398/768 */
+    height: auto;
+}
+
+.info h3{
+    font-size: 8.533333vw; /* 32/375 */
+    font-weight: 900;
+
+
+}
+
+.info p{
+    font-size: 4.8vw; /* 18/375 */
+    line-height: 7.466667vw; /* 28/375 */
+}
+
+.locpoint{
+    margin: 5.333333vw 0; /* 20/375 */
+}
+
+
+/* ----------footer------------- */
+footer{
+    height: 89.6vw; /* 336/375 */
+}
+
+
+#maindiv{
+    width: 100%;
+    padding: 12.8vw 8.533333vw; /* 32/375 */
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+#maindiv p{
+    font-size: 4.266667vw; /* 16/375 */
+    width: 100%; /* 282/768 */
+    line-height: 6.933333vw; /* 26/375 */
+    margin: 10.133333vw 0; /* 38/375 */
+}
+
+#maindiv .logo{
+    width: 29.346667vw; /* 110.05/375 */
+}
+
+.icons{
+    width: 26.67vw; /* 100/375 */
+}
+
+
+.icons svg{
+    width: 5.333333vw; /* 20/375 */
+}
+
+
+}

@@ -1,0 +1,214 @@
+@media only screen and (max-width: 500px){
+/* ----------------HOME PAGE------------ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drawing1, .drawing2, .drawing3{
+    padding: 0 2.083333vw 32vw 2.083333vw ; /* 120/375 */
+    margin:0 ;
+    box-sizing: border-box;
+    width: 100%;
+}
+/* ------------toppage------------ */
+
+.drawing1{
+    flex-direction: column;
+    margin-top: 6.67vw; /* 25/375 */
+}
+
+.picdivlogo div, .hero{
+    display: none;
+}
+
+#tablethero{
+    display: none;
+}
+
+#mobilehero{
+    display: block;
+    width: 100%; /* 375/768 */
+    height: 64vw; /* 240/375 */
+    position: none;
+
+}
+
+.textbutton{
+    position: static;
+    margin-top: 8.533333vw; /* 32/375 */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
+#intro{
+    font-size: 4.8vw; /* 18/375 */
+    line-height: 7.466667vw; /* 28/375 */
+    height: auto;
+}
+
+.textbutton button{
+    width: 69.333333vw; /* 260/375 */
+    height: 19.2vw; /* 72/375 */
+    margin-top: 8.533333vw; /* 32/375 */
+
+}
+
+.buttondiv2{
+    width: 14.933333vw; /* 56/375 */
+}
+
+
+.buttondiv2 img{
+    height: 6.4vw; /* 24/375 */
+}
+
+.buttondiv1 h2{
+    font-size: 5.333333vw; /* 20/375 */
+    letter-spacing: 0.970667vw; /* 3.64/375 */
+}
+
+.logodark{
+display: none;
+}
+
+.logodark2{
+    width: 91.466667vw; /* 343/375 */
+    display: block;
+    position: static;
+}
+
+
+/*------------midpage----------- */
+
+.drawing2{
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 8.533333vw; /* 32/375 */
+
+}
+
+.drawing2 img{
+ display: none;
+}
+
+#mobilehero2{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+}
+
+.text{
+width: 100%;
+height: auto; 
+margin-top: 6.67vw; /* 25/375 */
+}
+
+.text h1{
+width: 91.71123vw; /* 343/374 */
+font-size: 10.666667vw; /* 40/375 */
+height: 24vw; /* 90/375 */
+line-height: 12vw; /* 45/375 */
+}
+
+span{
+    display: block;
+}
+
+.text p{
+font-size: 4.8vw; /* 18/375 */
+line-height: 7.466667vw; /* 28/375 */
+width: 91.466667vw; /* 343/375 */
+margin-top: 5.6vw; /* 21/375 */
+}
+
+/* ------------grid/no more grid------------ */
+.grid{
+display: flex;
+flex-direction: column;
+width: 100%;
+gap: 0;
+}
+
+.imagegrid1, .imagegrid2, .imagegrid12, .imagegrid22{
+display: none;
+}
+
+.imagegrid31, .imagegrid32{
+display: block;
+width: 100%;
+margin-bottom: 4.266667vw; /* 16/375 */
+}
+
+
+.text2 {
+padding: 12.8vw 6.4vw; /* 24/375 */
+}
+
+.text2 h2{
+font-size: 13.333333vw; /* 50/375 */
+line-height: 12vw; /* 45/375 */
+}
+
+.text2 p{
+font-size: 4.8vw; /* 18/375 */
+line-height: 7.466667vw; /* 28/375 */
+margin-top: 6.4vw; /* 24/375 */
+
+}
+
+/* -----------------------footer--------------- */
+footer{
+    width: 100%;
+height: 89.6vw; /* 336/375 */
+margin-top: 0;
+}
+
+
+#maindiv{
+width: 82.933333vw; /* 311/375 */
+height: 64vw; /* 240/375 */
+flex-direction: column;
+
+}
+
+
+
+#maindiv p{
+font-size: 4.266667vw; /* 16/375 */
+width: 82.933333vw; /* 311/375 */
+line-height: 6.933333vw; /* 26/375 */
+}
+
+#maindiv .logo{
+width: 29.346667vw; /* 110.05/375 */
+}
+
+.icons{
+width: 26.666667vw; /* 100/375 */
+
+
+}
+
+
+.icons svg{
+width:  5.333333vw; /* 20/375 */
+}
+
+
+
+
+}

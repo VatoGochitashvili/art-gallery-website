@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+/* -----------button------------ */
+.map button{
+    width: 18.05vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10.83vw;
+
+}
+
+.map button:hover .buttondiv1{
+    background-color:#D5966C ;
+    transition: 0.4s;
+}
+
+.map button:hover .buttondiv2{
+    background-color: #151515;
+    transition: 0.4s;
+}
+
+.buttondiv1, .buttondiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.buttondiv1{
+ flex: 1;
+ background-color: #151515;
+ color: white;
+}
+
+.buttondiv2{
+    width: 3.8vw;
+    background-color: #D5966C;
+}
+
+.buttondiv2 img{
+    height: 1.67vw;
+}
+
+.buttondiv1 h2{
+    font-size: 1.39vw;
+    letter-spacing: 0.25vw;
+}
+
+
+/* -----------upper page----------- */
+#mappic{
+    width: 100%;
+    object-fit: cover;
+}
+
+#mappic2{
+    display: none;
+}
+
+#mappic3{
+    display: none;
+}
+
+.map{
+    height: 38vw 
+}
+
+/* ----------midpage----------- */
+.review{
+    width: 100%;
+    height: 38.06vw;
+    background-color: #151515;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container{
+    width: 77.08vw;
+    display: flex;
+    padding: 7.22vw 11.46vw 8.88vw 11.46vw ;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.container h1{
+    font-size: 4.86vw;
+    font-weight: 900;
+    width: 24.305vw;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 37.5vw;
+    height: 100%;
+}
+
+.info h3{
+    color: #D5966C;
+    font-size: 2.5vw;
+    font-weight: 900;
+
+
+}
+
+.info p{
+    font-size: 1.53vw;
+}
+
+ul{
+    list-style: none;
+}
+
+/* ----------footer------------- */
+footer{
+    height: 16.94vw;
+    background-color:#D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#151515;
+}
+
+
+#maindiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 77.08vw;
+}
+
+
+
+#maindiv p{
+    font-size: 1.25vw;
+    width: 29.86vw;
+}
+
+#maindiv .logo{
+    width: 11.08vw;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 7vw;
+    color: #D5966C;
+}
+
+
+.icons svg{
+    width: 20px;
+    cursor: pointer;
+
+}
+
+svg path{
+    fill:#151515;
+}
+
+.icons svg:hover path{
+    fill: white;
+    
+}
+
+
+    

@@ -1,0 +1,181 @@
+
+
+
+@media only screen and (min-width:500px) and ( max-width: 900px){
+
+/* ----------------HOME PAGE------------ */
+
+    .drawing2, .drawing3{
+        width: 89.713542vw; /* 689/768 */
+    }
+    /* ------------toppage------------ */
+
+    .picdivlogo div, .hero{
+        display: none;
+    }
+
+    #tablethero{
+        display: block;
+    }
+
+    .hero{
+        width: 56.901042vw; /* 437/768 */
+        height: 91.145833vw; /* 700/768 */
+    }
+    
+    
+    .textbutton{
+        width: 44.140625vw; /* 339/768 */
+        height: 30.208333vw; /* 232/768 */
+        top: 42.057292vw; /* 323/768 */
+        right: 5.208333vw; /* 40/768 */
+    }
+    
+    #intro{
+        font-size: 2.34375vw;
+        height: 14.583333vw; /* 112/768 */
+        line-height: 3.645833vw; /* 28/768 */
+    }
+    
+    .textbutton button{
+        width: 33.854167vw; /* 260/768 */
+        height: 9.375vw; /* 72/768 */
+        margin-top: 6.25vw; /* 48/768 */
+    
+    }
+    
+    .buttondiv2{
+        width: 7.291667vw; /* 56/768 */
+    }
+    
+    .buttondiv2 img{
+        height: 3.125vw; /* 24/768 */
+    }
+    
+    .buttondiv1 h2{
+        font-size: 2.604167vw; /* 20/768 */
+        letter-spacing: 0.473958vw; /* 3.64/768 */
+    }
+
+    .logodark{
+    display: none;
+    }
+
+    .logodark2{
+        width: 44.140625vw; /* 339/768 */
+        display: block;
+        position: absolute;
+        top: 18.880208vw; /* 145/768 */
+        right: 5.208333vw; /* 40/768 */
+    }
+    
+ 
+    /*------------midpage----------- */
+
+
+.drawing2{
+    margin: 15.625vw 5.208333vw 1.432292vw 5.208333vw; /* 11/768 */
+}
+
+.drawing2 img{
+    width: 51.822917vw; /* 398/768 */
+    height: 52.083333vw; /* 400/768 */
+    margin-left: 8.854167vw; /* 68/768 */
+}
+
+.text{
+    width: 29.036458vw; /* 223/768 */
+    height: 38.932292vw; /* 299/768 */
+}
+
+.text h2{
+    font-size: 6.510417vw; /* 50/768 */
+    height: 17.578125vw; /* 135/768 */
+}
+
+.text p{
+    font-size: 2.34375vw; /* 18/768 */
+}
+
+/* ------------grid------------ */
+
+.drawing3{
+    margin: 0 5.078125vw; /* 39/768 */
+}
+.grid{
+    grid-template-columns: 51.822917vw 36.458333vw; /* 280/768 */
+    grid-template-rows: 40.755208vw  51.5625vw; /* 396/768 */
+    gap: 1.432292vw; /* 11/768 */
+}
+
+.imagegrid1, .imagegrid2{
+    display: none;
+}
+
+.imagegrid12, .imagegrid22{
+    display: block;
+}
+
+.imagegrid12{
+    grid-row: 1 /-1;
+    width: 51.822917vw; /* 398/768 */
+height: 93.75vw; /* 720/768 */
+}
+
+.imagegrid22{
+    width: 36.458333vw; /* 280/768 */
+    height: 40.755208vw; /* 313/768 */
+}
+
+.text2 {
+    padding: 11.067708vw 3.645833vw; /* 28/768 */
+}
+
+.text2 h2{
+    font-size: 6.510417vw; /* 50/768 */
+}
+
+.text2 p{
+    font-size: 2.34375vw; /* 18/768 */
+    font-weight: 100;
+    line-height: 3.645833vw; /* 28/768 */
+    margin-top: 3.125vw; /* 24/768 */
+    
+}
+
+/* -----------------------footer--------------- */
+footer{
+    height: 28.125vw; /* 216/768 */
+    margin-top: 15.625vw; /* 120/768 */
+}
+
+
+#maindiv{
+    width: 89.713542vw; /* 689/768 */
+}
+
+
+
+#maindiv p{
+    font-size: 2.083333vw; /* 16/768 */
+    width: 36.588542vw; /* 281/768 */
+    line-height: 3.385417vw; /* 26/768 */
+}
+
+#maindiv .logo{
+    width: 14.329427vw; /* 110.05/768 */
+}
+
+.icons{
+    width: 13.020833vw; /* 100/768 */
+  
+
+}
+
+
+.icons svg{
+    width:  2.604167vw; /* 20/768 */
+}
+
+
+}
